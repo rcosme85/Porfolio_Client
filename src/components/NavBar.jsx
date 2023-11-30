@@ -5,7 +5,7 @@ export const NavBar = () => {
     <div>
       {/* Navigation*/}
       <nav
-        className="navbar navbar-expand-lg navbar-light fixed-top py-3"
+        className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
         id="mainNav"
       >
         <div className="container px-4 px-lg-5">
@@ -24,7 +24,7 @@ export const NavBar = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav ms-auto my-2 my-lg-0">
+            <ul className="navbar-nav ms-auto my-lg-0">
               <li className="nav-item">
                 <a className="nav-link" href="#Home">
                   Home

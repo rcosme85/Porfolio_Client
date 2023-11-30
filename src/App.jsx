@@ -8,13 +8,18 @@ import { NavBar } from './components/NavBar';
 import { Contact } from './components/Contact';
 import { Skills } from './components/Skills';
 import { About } from './components/About';
+import { NavBar2 } from './components/NavBar2';
+import { Home2 } from './components/Home2';
 
 function App() {
 
   return (
     <div>
       <NavBar />
-      <Home />
+      {/* <NavBar2/> */}
+      <hr />
+      {/* <Home /> */}
+      <Home2/>
       <About />
       <Porfolio />
       <Skills />
