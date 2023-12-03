@@ -7,15 +7,18 @@ export const Porfolio = () => {
       <div id="portfolio">
         <div className="container-fluid p-0">
           <div className="row g-0">
+            <div className="col-12 text-center ">
+              <h2 className="my-4">Portfolio</h2>
+            </div>
             <div className="col-lg-6 col-sm-12">
               <a
                 className="portfolio-box"
-                href="assets/img/portfolio/fullsize/1.jpg"
-                title="Project Name"
+                href="assets/img/portfolio/fullsize/1-Dogs.jpg"
+                title="Project Dogs"
               >
                 <img
                   className="img-fluid"
-                  src="assets/img/portfolio/thumbnails/1.jpg"
+                  src="assets/img/portfolio/thumbnails/1-Dogs-650x350.jpg"
                   alt="..."
                 />
                 <div className="portfolio-box-caption">
@@ -75,7 +78,6 @@ export const Porfolio = () => {
                 </div>
               </a>
             </div>
-            
           </div>
         </div>
       </div>
