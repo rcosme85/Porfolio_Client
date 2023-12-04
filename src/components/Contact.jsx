@@ -5,10 +5,10 @@ export const Contact = () => {
     <>
       {/* Contact*/}
       <section className="page-section" id="contact">
-        <div className="container px-4 px-lg-5">
+        <div className="container bg-dark px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-8 col-xl-6 text-center">
-              <h2 className="mt-0">Contactme</h2>
+              <h2 className="mt-5 text-white">Contact me</h2>
               <hr className="divider" />
               <p className="text-muted mb-5">
                 Let's work together on your next project!
