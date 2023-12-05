@@ -15,7 +15,7 @@ export const Home2 = () => {
             />
             <div className="card-body ">
               <h5 className="text-center fs-2">Hi, I'm Rocío</h5>
-              <h6 className="text-center mb-2">FullStack Developer</h6>
+              <h6 className="text-center mb-2">Web FullStack Developer</h6>
 
               {/* Redes Sociales */}
               <div className="d-flex justify-content-center ">
@@ -31,10 +31,10 @@ export const Home2 = () => {
               </div>
               {/* CTA */}
               <a
-                href="#about"
+                href="#contact"
                 className="mt-2 btn btn-success d-flex justify-content-center"
               >
-                Aboutme
+                Contact me
               </a>
             </div>
           </div>

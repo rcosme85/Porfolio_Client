@@ -18,7 +18,7 @@ export const Home = () => {
               {/* <p className="text-white-75 mb-5">Hi, I'm Rocío </p> */}
               <br />
               <h2 className="text-blue font-weight-bold ">Hi, I'm Rocío</h2>
-              <p className="text-white-75 mb-5">FullStack Developer</p>
+              <p className="text-white-75 mb-5">Web FullStack Developer</p>
               {/* <a className="btn btn-primary btn-xl" href="#about">Find Out More</a> */}
             </div>
           </div>
