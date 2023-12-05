@@ -1,29 +1,45 @@
-import styles from "./Home.module.css"
+import React from "react";
+import styles from "./Home.module.css";
 
 export const Home = () => {
   return (
-    <div>
-      {/* Masthead - className="masthead"*/}
-      <section className="page-section bg-info bg-opacity-50" id="Home">
-        {/*  - container px-4 px-lg-5 h-100 */}
-        <div className="container px-4 px-lg-5 ">
-          <div className="row gx-4 gx-lg-5  justify-content-center">
-            {/* <div className="col-lg-8 align-self-end">
-              <h1 className="text-blue font-weight-bold"></h1>
-              <hr className="divider" />
-            </div> */}
+    <div className={styles.home} id="Home">
+      {/* className="row min-vh-100 p-0 d-flex justify-content-center align-content-center bg-primary" */}
+      <div className="row d-flex justify-content-center">
+        <div className="col-6  ">
+          <div className="card" style={{ width: "18rem" }}>
+            <img
+              src="../assets/img/FOTO.jpg"
+              className="card-img-top"
+              alt="foto"
+            />
+            <div className="card-body ">
+              <h5 className="text-center fs-2">Hi, I'm Rocío</h5>
+              <h6 className="text-center mb-2">Web FullStack Developer</h6>
 
-            {/* col-lg-8 align-self-baseline mt-20 */}
-            <div className=" col-lg-8 text-center border border-2 border-info">
-              {/* <p className="text-white-75 mb-5">Hi, I'm Rocío </p> */}
-              <br />
-              <h2 className="text-blue font-weight-bold ">Hi, I'm Rocío</h2>
-              <p className="text-white-75 mb-5">Web FullStack Developer</p>
-              {/* <a className="btn btn-primary btn-xl" href="#about">Find Out More</a> */}
+              {/* Redes Sociales */}
+              <div className="d-flex justify-content-center ">
+                <a href="#">
+                  <i className="bi bi-facebook px-2" />
+                </a>
+                <a href="#">
+                  <i className="bi bi-github px-2" />
+                </a>
+                <a href="#">
+                  <i className="bi bi-linkedin px-2" />
+                </a>
+              </div>
+              {/* CTA */}
+              <a
+                href="#contact"
+                className="mt-2 btn btn-success d-flex justify-content-center"
+              >
+                Contact me
+              </a>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
-}
+};

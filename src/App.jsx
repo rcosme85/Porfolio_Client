@@ -9,7 +9,7 @@ import { Contact } from './components/Contact';
 import { Skills } from './components/Skills';
 import { About } from './components/About';
 import { NavBar2 } from './components/NavBar2';
-import { Home2 } from './components/Home2';
+
 
 function App() {
 
@@ -18,8 +18,7 @@ function App() {
       <NavBar />
       {/* <NavBar2/> */}
       <hr />
-      {/* <Home /> */}
-      <Home2/>
+      <Home />
       <About />
       <Porfolio />
       <Skills />
