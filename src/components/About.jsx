@@ -1,4 +1,13 @@
 import React from "react";
+import { HtmlIcon } from "./Icons/HtmlIcon";
+import { PostgresSqlIcon } from "./Icons/PostgresSqlIcon";
+import { CssIcon } from "./Icons/CssIcon";
+import { BootstrapIcon } from "./Icons/BootstrapIcon";
+import { ReactIcon } from "./Icons/ReactIcon";
+import { NodeIcon } from "./Icons/NodeIcon";
+import { JavaScriptIcons } from "./Icons/JavaScriptIcons";
+import { ReduxIcon } from "./Icons/ReduxIcon";
+import { GitHubIcon } from "./Icons/GitHubIcon";
 
 export const About = () => {
   return (
@@ -35,6 +44,23 @@ export const About = () => {
                 using tools for project management and administration such as
                 Trello or Jira.
               </p>
+            </div>
+            {/* Skills */}
+            <div className="col-lg-8 border border-light-subtle mb-5">
+              <h4 className="text-white mt-4 text-center">My Skills</h4>
+              {/* <hr className="divider divider-light" /> */}
+              <div className="d-flex justify-content-around mb-3">
+
+                <HtmlIcon />
+                <PostgresSqlIcon />
+                <CssIcon />
+                <BootstrapIcon />
+                <ReactIcon />
+                <NodeIcon />
+                <JavaScriptIcons />
+                <ReduxIcon />
+                
+              </div>
             </div>
           </div>
         </div>

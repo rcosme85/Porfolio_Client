@@ -18,15 +18,22 @@ export const Porfolio = () => {
                 <img
                   src="assets/img/portfolio/thumbnails/1-Dogs-650x350.jpg"
                   className="card-img-top"
-                  alt="Dogs"
+                  alt="toDo"
                 />
                 <div className="card-body text-center">
                   <a href="#" className="btn btn-primary">
-                    <h5 className="card-title">Dogs</h5>
+                    <h5 className="card-title">ToDo App</h5>
                   </a>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Web application that allows users to create and categorize
+                    tasks to be performed. It has the functionality of:
+                    Registration and Login of a user, a user can see the list of
+                    their tasks to be performed, add an element (title,
+                    description and category), edit an element, mark as
+                    completed or incomplete, filter by category, delete an item
+                    and create new categories. The technologies used were:
+                    Bootstrap, CSS, React, Redux, JavaScript, NodeJs, Express,
+                    PostgreSQL and Sequelize
                   </p>
                   {/* <a href="#" className="btn btn-primary">
                     Go somewhere
@@ -42,15 +49,21 @@ export const Porfolio = () => {
                 <img
                   src="assets/img/portfolio/thumbnails/1-Dogs-650x350.jpg"
                   className="card-img-top"
-                  alt="Dogs"
+                  alt="HotelOasis"
                 />
                 <div className="card-body text-center">
-                  <a href="#" className="btn btn-primary">
-                    <h5 className="card-title">Dogs</h5>
+                  <a
+                    href="https://hotel-oasis-wfkz.onrender.com/"
+                    className="btn btn-primary"
+                  >
+                    <h5 className="card-title">Oasis Hotel</h5>
                   </a>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Hotel web application, the objective of this application is
+                    to search for available rooms in a period of time to make an
+                    online reservation. The technologies used were: React,
+                    Redux, Css, Tailwind, JavaScript, NodeJs, Express,
+                    PostgreSQL and Sequelize
                   </p>
                   {/* <a href="#" className="btn btn-primary">
                     Go somewhere
@@ -69,11 +82,14 @@ export const Porfolio = () => {
                 />
                 <div className="card-body text-center">
                   <a href="#" className="btn btn-primary">
-                    <h5 className="card-title">Dogs</h5>
+                    <h5 className="card-title">Soul Music</h5>
                   </a>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Music and vinyl sales web application. On this page you can
+                    register with different memberships to use the service to
+                    listen, choose and create your own playList of your favorite
+                    music. The technologies of: React, Redux, CSS, Bootstrap,
+                    Node, Express, PostgreSQL and Sequelize were used.
                   </p>
                   {/* <a href="#" className="btn btn-primary">
                     Go somewhere
@@ -95,8 +111,14 @@ export const Porfolio = () => {
                     <h5 className="card-title">Dogs</h5>
                   </a>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Construction of a Single Page Application from the API
+                    (TheDogApi) in which you can: Search for dogs, view dog
+                    information, filter them, sort them and create new dogs.
+                    Additionally, you can obtain the existing temperaments of
+                    each dog by fetching them from the API, then saving them to
+                    the database for later consumption from there. The
+                    technologies of: React, Redux, Node, JavaScript, Express,
+                    PostgreSQL and Sequelize were used.
                   </p>
                   {/* <a href="#" className="btn btn-primary">
                     Go somewhere
