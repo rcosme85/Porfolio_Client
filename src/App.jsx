@@ -7,6 +7,7 @@ import { Footer } from './components/Footer';
 import { NavBar } from './components/NavBar';
 import { Contact } from './components/Contact';
 import { About } from './components/About';
+import { Portfolio } from './components/Portfolio';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <hr />
       <Home />
       <About />
-      <Porfolio />
+      <Portfolio />
       <Contact />
       <Footer />
     </div>

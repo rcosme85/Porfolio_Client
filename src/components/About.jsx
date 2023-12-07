@@ -13,11 +13,11 @@ export const About = () => {
   return (
     <div>
       {/* About*/}
-      <section className=" bg-dark text-white" id="about">
+      <section className=" bg-dark text-white" id="about" >
         <div className="container  px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-8 text-center">
-              <h2 className="text-white mt-4">About me</h2>
+              <h2 className="text-white mt-5">About me</h2>
               <hr className="divider divider-light" />
               <p className="text-white text-start mb-4">
                 Hi there 👋, my name is Rocío. I am a Systems Engineer with
@@ -47,9 +47,9 @@ export const About = () => {
             </div>
             {/* Skills */}
             <div className="col-lg-8 border border-light-subtle mb-5">
-              <h4 className="text-white mt-4 text-center">My Skills</h4>
+              <h4 className="text-white my-4 text-center">My Skills</h4>
               {/* <hr className="divider divider-light" /> */}
-              <div className="d-flex justify-content-around mb-3">
+              <div className="d-flex justify-content-around mb-4">
 
                 <HtmlIcon />
                 <PostgresSqlIcon />
@@ -62,6 +62,7 @@ export const About = () => {
                 
               </div>
             </div>
+            
           </div>
         </div>
       </section>

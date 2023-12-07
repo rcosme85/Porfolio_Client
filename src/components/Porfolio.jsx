@@ -1,16 +1,31 @@
 import React from "react";
+import styles from "./Porfolio.module.css";
 
 export const Porfolio = () => {
   return (
     <div>
       {/* Portfolio*/}
-      <div id="portfolio">
-        <div className="container ">
+      <div id="portfolio" className={styles.portfolio}>
+        {/* "container mt-5 " */}
+        <div className={styles.contenidoSeccion}>
           {/* row gx-4 gx-lg-5 justify-content-center */}
           <div className="row gx-4 gx-lg-5 justify-content-around">
             <div className="col-12 text-center ">
-              <h2 className="my-4">Portfolio</h2>
+              {/* my-4 */}
+              <h2 className="">Portfolio</h2>
             </div>
+            {/* Primer Proyecto - Otro Formato */}
+            <div className={styles.proyecto}>
+              <img
+                src="assets/img/portfolio/thumbnails/1-Dogs-650x350.jpg"
+                alt
+              />
+              <div className={styles.overlay}>
+                <h3>Diseño Creativo</h3>
+                <p>Fotografía</p>
+              </div>
+            </div>
+
             {/* primer Proyecto */}
             <div className="col-lg-5 col-sm-12 my-5">
               {/* style={{ width: "24rem" }} */}
@@ -20,6 +35,10 @@ export const Porfolio = () => {
                   className="card-img-top"
                   alt="toDo"
                 />
+                {/*   <div className={styles.overlay}>
+                  <h3>ToDo App</h3>
+                  <p>Link</p>
+                </div> */}
                 <div className="card-body text-center">
                   <a href="#" className="btn btn-primary">
                     <h5 className="card-title">ToDo App</h5>
