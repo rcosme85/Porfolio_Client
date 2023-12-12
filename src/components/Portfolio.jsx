@@ -11,7 +11,7 @@ export const Portfolio = () => {
             {/* Primer Proyecto */}
             <div className={styles.proyecto}>
               <img
-                src="assets/img/portfolio/ToDo-F.jpg"
+                src="assets/img/portfolio/ToDo.png"
                 alt
               />
               <div className={styles.overlay}>
@@ -30,7 +30,7 @@ export const Portfolio = () => {
             {/* Segundo Proyecto */}
             <div className={styles.proyecto}>
               <img
-                src="assets/img/portfolio/HotelOasis-2.jpg"
+                src="assets/img/portfolio/HotelOasis.png"
                 alt
               />
               <div className={styles.overlay}>
@@ -50,7 +50,7 @@ export const Portfolio = () => {
             {/* Tercer Proyecto */}
             <div className={styles.proyecto}>
               <img
-                src="assets/img/portfolio/SoulMusic-2.png"
+                src="assets/img/portfolio/SoulMusic.png"
                 alt
               />
               <div className={styles.overlay}>
@@ -70,7 +70,7 @@ export const Portfolio = () => {
             {/* Cuarto Proyecto */}
             <div className={styles.proyecto}>
               <img
-                src="assets/img/portfolio/1-Dogs-650x350.jpg"
+                src="assets/img/portfolio/Dog.png"
                 alt
               />
               <div className={styles.overlay}>
