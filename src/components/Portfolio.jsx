@@ -4,7 +4,7 @@ import styles from "./Porfolio.module.css"
 export const Portfolio = () => {
   return (
     <div>
-      <section id="porfolio" className={styles.portfolio}>
+      <section id="portfolio" className={styles.portfolio}>
         <div className={styles.contenidoSeccion}>
           <h2>PORTFOLIO</h2>
           <div className={styles.galeria}>
