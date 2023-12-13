@@ -9,7 +9,7 @@ export const PostgresSqlIcon = () => {
         y="0px"
         width="50"
         height="50"
-        viewBox="0 0 48 48"
+        viewBox="0 0 50 50"
       >
         <path
           fill="#fff"

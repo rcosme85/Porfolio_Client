@@ -5,7 +5,7 @@ export const Contact = () => {
     <>
       {/* Contact*/}
       <section className="page-section" id="contact">
-        <div className="container bg-dark mt-5 px-4 px-lg-5">
+        <div className="container-fluid bg-dark px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-8 col-xl-6 text-center">
               <h2 className="mt-5 text-white">Contact me</h2>

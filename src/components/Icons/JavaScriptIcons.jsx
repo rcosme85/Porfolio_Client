@@ -7,8 +7,8 @@ export const JavaScriptIcons = () => {
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="40"
-        height="40"
+        width="50"
+        height="50"
         viewBox="0 0 48 48"
       >
         <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>

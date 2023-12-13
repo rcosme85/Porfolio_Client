@@ -3,11 +3,12 @@ import { GitHubIcon } from "./Icons/GitHubIcon";
 import { LinkedlnIcon } from "./Icons/LinkedlnIcon";
 import { UpIcon } from "./Icons/UpIcon";
 
+
 export const Footer = () => {
   return (
     <div>
       {/* Footer*/}
-      <footer className="bg-light py-5">
+      <footer className="bg-light py-3">
         <div className="container px-4 px-lg-5">
           <div className="row d-flex justify-content-around">
             {/* col-1 bg-secondary rounded mb-2 */}
@@ -16,8 +17,8 @@ export const Footer = () => {
                 href="#Home"
                 className="mt-1 mb-1 d-flex justify-content-center"
               >
-                <UpIcon />
-                {/* <img src="assets/img/FlechaArriba.png" alt="flechaArriba"/> */}
+ 
+                <img src="assets/img/Flecha-10x10.png" alt="flechaArriba"/>
               </a>
             </div>
           </div>

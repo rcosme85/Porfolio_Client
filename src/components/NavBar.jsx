@@ -10,7 +10,7 @@ export const NavBar = () => {
       >
         <div className="container px-4 px-lg-5">
           <a className="navbar-brand" href="#about">
-            RC - FullStack
+            <img src="assets/img/LogoCuadrado-15.png" alt="logo" />
           </a>
           <button
             className="navbar-toggler navbar-toggler-right"
